@@ -123,9 +123,9 @@ progress {
     background:rgb(144, 238, 144);
     color: black; 
     text-align: end; 
-    height: 12px;
-    font-size: 10px; 
-    padding-top: 3px;
+    height: 14px;
+    font-size: 10px;
+    padding-top: 2px;
     padding-right: 5px;
     border-radius: 5px; 
     } 
