@@ -1,0 +1,125 @@
+
+*{
+    box-sizing: border-box;
+
+}
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktops: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+body {
+    height: 680px;
+    background-image: linear-gradient(to top left, #30cfd0 0%, #330867 100%);
+    background-size: contain;
+    color: white;  
+    position: none;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#phrase {
+    width: 100%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;   
+    text-align: center;
+    color: silver;
+}
+
+#please {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    left: 100px;
+    padding: 15px;
+    /*border: silver solid;*/
+    margin: 0;
+    /*flex-flow: nowrap;*/ 
+    float: left;
+    /* border: 10px solid red; */
+    /*height: 100vh; */
+
+
+}
+
+/* .aside {
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+  } */
+
+.cv-port, .cv-eng, .cv-spanish {
+    text-align: center;
+    padding: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* width: 100%;
+    float: left;
+    padding: 10px; */
+    /* border: 10px solid red; */
+    /* margin: 20px 150px 20px 100px; */
+    transition: all 0.9s ease-in-out;
+}
+
+.cv-port:hover, .cv-eng:hover, .cv-spanish:hover {
+    transform: scale(1.3);
+  }
+
+#social-media {
+    
+    padding: 2px;
+    margin-top: 370px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    border: 1px solid;
+    width: 20%;
+    bottom: 10px;
+    padding: 0 20px 0 20px; */
+    
+}
+
+#whatsApp, #github, #linkedin {
+    padding-inline: 20px;
+    /* border: solid 2px black; */
+    /* width: 33%;
+    float: left;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 5px;*/  
+}
+
+#footer {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    /* border: solid 2px purple; */
+}

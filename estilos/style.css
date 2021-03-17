@@ -1,0 +1,283 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top left, #30cfd0 0%, #330867 100%);
+    background-size: contain;
+    font-size: 13px;
+}
+
+.container-header{
+    display: flex;
+    font-weight: bolder;
+    height: 3rem;
+    line-height: 0vh;
+    
+}
+
+.name{
+    font-size: 25px;
+    width: 50%;
+    height: 25%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.profession{
+    font-size: 25px;
+    width: 40%;
+    height: 50%;
+    position: relative;
+    text-align: left;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+img.header{
+    max-width: 100%;
+    height: unset;
+    padding-bottom: unset;
+}
+
+
+header:first-child{
+    font-family: Arial, Helvetica, sans-serif;    
+    color: rgb(246, 239, 237);
+    font-size: 1px;
+    
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.473);
+}
+
+#resume {
+    text-indent: 0px;
+}
+
+h1 {
+    font-size: 10pt;
+    color:rgb(0, 0, 0); 
+    text-align: center;  
+    
+}
+
+h2 {
+    font-size: 16px;
+    color: rgb(0, 0, 0);    
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+h3 {
+    font-size: 14px;
+    color: rgb(0, 0, 0);        
+    margin-bottom: 5px;
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+}
+
+progress {
+    border-radius: 10px;
+    width: 190px;
+    height: 10px;
+    background: rgb(144, 238, 144);
+  }
+  
+  progress::-webkit-progress-value {
+    background: rgb(144, 238, 144);
+    border-radius: 5px;
+  }
+  
+  progress::-moz-progress-bar {
+    background: rgb(159, 159, 161);
+    border-radius: 10px;
+  }
+  
+  progress::-webkit-progress-value {
+    background:rgb(144, 238, 144);
+    border-radius: 5px;
+  }
+  
+  progress::-webkit-progress-bar {
+    background: rgb(159, 159, 161);
+    border-radius: 10px;
+  }
+
+  .container { 
+    background-color: rgb(159, 159, 161); 
+    width: 100%; 
+    border-radius: 15px; 
+    } 
+
+    .skill { 
+    background:rgb(144, 238, 144);
+    color: black; 
+    text-align: end; 
+    height: 12px;
+    font-size: 10px; 
+    padding-top: 3px;
+    padding-right: 5px;
+    border-radius: 5px; 
+    } 
+
+        .html { 
+            width: 60%; 
+        } 
+
+        .php { 
+            width: 50%; 
+        } 
+
+        .css { 
+            width: 50%; 
+        }
+
+        .js { 
+            width: 30%; 
+        }
+
+        .db {
+            width: 20%;
+        }
+
+        .agile {
+            width: 50%;
+        }
+
+        .self-taught {
+            width: 100%;
+        }
+
+        .people {
+            width: 60%;
+        }
+
+        .colaboration {
+            width: 80%;
+        }
+
+        .comunication {
+            width: 90%;
+        }
+
+        .port {
+            width: 100%;
+        }
+
+        .eng {
+            width: 90%;
+        }
+
+        .spanish {
+            width: 70%;
+        }
+
+        .italian {
+            width: 30%;
+        }
+
+        .french {
+            width: 25%;
+        }
+
+img.meio {
+    float:inline-end;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(245, 208, 0);
+}
+
+.row {
+    display: flex;       
+}
+
+.column {
+    float: right;
+    padding: 5px; 
+    margin-top: 10px 10px;
+      
+       
+  }
+  
+  .left {
+    width: 75%;  
+  }
+  
+  .right {
+    font-size: 12px;
+    width: 25%;
+    background-color: rgb(232, 231, 233);
+    /*box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);*/
+  }
+
+  .direita {
+    width: 80%;
+    margin-top: -18px;
+    padding-top: 08px; 
+         
+  }
+
+  .esquerda{
+    width: 20%;
+    margin-top: -18px;      
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#current {
+    padding-top: 1px;
+    padding-bottom: 130px;
+}
+
+#lastjob {
+    padding-top: 25px;
+    padding-bottom: 70px;
+}
+
+#secondlastjob {
+    padding-top: 08px;
+}
+
+#udegree1 {
+    padding-top: 19px;
+}
+
+#udegree2{
+    padding-top: 2px;
+}
+
+#courses {
+    padding-top: 25px;
+}
+
+#bootsptech {
+    padding-top: 1px;
+    padding-bottom: 45px;
+}
+
+.qtz {
+    text-indent: 0; 
+}
+
