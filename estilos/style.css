@@ -59,6 +59,7 @@ main {
 
 #resume {
     text-indent: 0px;
+    padding: 5px;
 }
 
 h1 {
@@ -203,7 +204,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: rgb(245, 208, 0);
+    color: rgba(0, 0, 0, 0.253);
 }
 
 .row {
@@ -212,8 +213,7 @@ a:hover {
 
 .column {
     float: right;
-    padding: 5px; 
-    margin-top: 10px 10px;
+    margin-top: 10px;
       
        
   }
@@ -226,19 +226,22 @@ a:hover {
     font-size: 12px;
     width: 25%;
     background-color: rgb(232, 231, 233);
+    padding: 0 5px 0 5px;
     /*box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);*/
   }
 
   .direita {
     width: 80%;
     margin-top: -18px;
-    padding-top: 08px; 
+    padding-top: 3px; 
+    padding-right: 5px;
          
   }
 
   .esquerda{
     width: 20%;
-    margin-top: -18px;      
+    margin-top: -18px;
+    padding-left: 2px;      
   }
   
   .row:after {
