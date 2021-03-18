@@ -33,22 +33,23 @@ body {
     height: 680px;
     background-image: linear-gradient(to top left, #30cfd0 0%, #330867 100%);
     background-size: contain;
-    color: white;  
-    position: none;  
+    color: silver;
+    position: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #phrase {
     width: 100%;
     font-family: 'Permanent Marker', cursive;
-    font-size: 40px;   
+    font-size: 40px;
     text-align: center;
     color: silver;
 }
 
 #please {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     font-size: 20px;
 }
 
@@ -61,14 +62,12 @@ body {
     width: 100%;
     left: 100px;
     padding: 15px;
-    /*border: silver solid;*/
-    margin: 0;
-    /*flex-flow: nowrap;*/ 
+    margin-top: 2%;
     float: left;
-    /* border: 10px solid red; */
-    /*height: 100vh; */
-
-
+    /* border: silver solid;
+    flex-flow: nowrap;
+    border: 10px solid red;
+    height: 100vh; */
 }
 
 /* .aside {
@@ -95,24 +94,28 @@ body {
   }
 
 #social-media {
-    
     padding: 2px;
-    margin-top: 370px;
+    margin-top: 40%;
+    margin-left: 30%;
+    margin-right: 0;
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: center;
     align-items: center;
+    block-size: fit-content;
+    writing-mode: horizontal-tb;
     /* position: relative;
     border: 1px solid;
     width: 20%;
     bottom: 10px;
     padding: 0 20px 0 20px; */
-    
+
 }
 
 #whatsApp, #github, #linkedin {
     padding-inline: 20px;
+    margin-left: 10px;
     /* border: solid 2px black; */
     /* width: 33%;
     float: left;
@@ -120,12 +123,13 @@ body {
     position: relative;
     bottom: 0;
     left: 0;
-    margin: 5px;*/  
+    margin: 5px;*/
 }
 
 #footer {
     text-align: center;
     margin-top: 15px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+    margin-left: 24%;
     /* border: solid 2px purple; */
 }
